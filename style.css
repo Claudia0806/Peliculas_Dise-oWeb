@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(39, 39, 173);
+    display: block; /* Permite centrar el texto */
+    padding: 10px; 
+    text-align: center; 
+}
+h2 {
+    color: white;
+    margin: 0;
+    padding-left: 10px; 
+    text-align: center;
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(39, 39, 173);
+    display: block; /* Permite centrar el texto */
+    padding: 10px; 
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#botonesContainer {
+    text-align: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    margin-top: 20px; /* Puedes ajustar este valor para controlar el espacio desde la parte superior */
+  }
+  
+ 
+  #botonesContainer button {
+    margin: 10px; /* Espacio entre los botones */
+  }
+
+  #centeredContainer {
+    text-align: center; /* Centra los elementos horizontalmente */
+  }
+  
+  #centeredContainer button {
+    margin: 0 10px; /* Espacio horizontal entre los botones (ajusta según sea necesario) */
+  }
+  
+  #crearTab {
+    text-align: center; /* Centra los elementos horizontalmente */
+  }
+  
+  #crearTab button {
+    margin: 0 10px; /* Espacio horizontal entre los botones (ajusta según sea necesario) */
+  }
